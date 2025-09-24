@@ -35,6 +35,7 @@ Sprint_5/
 
  Тестовые сценарии
  Тесты авторизации (test_login.py)
+ 
 ✅ Вход через кнопку "Войти в аккаунт"
 - test_login_via_main_login_button
 
@@ -49,6 +50,7 @@ Sprint_5/
 
 
  Тесты регистрации (test_registration.py)
+ 
 ✅ Успешная регистрация нового пользователя
 - test_registration_new_account_success_submit
 
@@ -75,11 +77,13 @@ Sprint_5/
 
 
  Тесты выхода из системы (test_logout.py)
+ 
 ✅ Успешный выход из личного кабинета
 - test_logout_of_personal_account
 
 
 Тесты навигации (test_to_from *.py)
+
 ✅ Переход в личный кабинет
 - test_go_to_personal_account
 
@@ -166,6 +170,7 @@ pytest -m "registration"
 Случайные данные - уникальные данные для каждого запуска
 
 Разные стратегии локаторов - повышение надежности тестов
+
 
 
 
